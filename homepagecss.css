@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    position: relative; /* Position the footer relative to the body */
+    backdrop-filter: blur(2px);
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-logo img {
+    width: 80px;
+}
+
+.company-name h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+    padding-bottom: 100px; /* Adjust padding to accommodate footer */
+}
+
+.sports-icons img {
+    width: 100px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.trademark {
+    margin-right: auto;
+}
+
+.contact-info {
+    margin-left: auto;
+}
